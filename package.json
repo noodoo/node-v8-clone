@@ -1,6 +1,6 @@
 {
-  "name": "node-v8-clone",
-  "version": "0.6.2",
+  "name": "@noodoo/node-v8-clone",
+  "version": "0.6.2-gtr",
   "description": "The most convenient and accurate cloner for node.js. It's also very fast in some cases (benchmarks inside).",
   "main": "lib/clone.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/AlexeyKupershtokh/node-v8-clone.git"
+    "url": "git://github.com/noodoo/node-v8-clone.git"
   },
   "bugs": {
     "url": "https://github.com/AlexeyKupershtokh/node-v8-clone/issues",
@@ -34,5 +34,8 @@
   },
   "devDependencies": {
     "mocha": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
